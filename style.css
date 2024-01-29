@@ -1,0 +1,100 @@
+/* rest browser default values 
+universial selector match all html elements in the dom tree
+
+
+*/
+/* reset default values */
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+.container {
+    width: 80%;
+    margin:auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+nav .logo {
+    width: 50px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    padding:0 10px;
+    margin: 0 5px;
+    
+}
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    padding:0 5px;
+    text-transform: capitalize;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+    /* width: 80%; */
+}.header-content .text {
+    width: 50%;
+}
+.header-content .text h1 {
+    font-size: 41px;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+}
+.header-content .text p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+        width: 87%;
+}
+.header-content .text button {
+    text-transform: capitalize;
+    padding: 10px 23px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.header-content .image-holder {
+    text-align: center;
+    width: 40%;
+    
+}
+.header-content .image-holder img {
+   width: 200px;
+}
+.images-div {
+    text-align: center;
+    margin-top: 30px;
+
+}
+.images-div img {
+    width: 50px;
+    transition: 0.2s;
+}
+.images-div img:hover {
+    transform: scale(1.5);
+}
+
+
